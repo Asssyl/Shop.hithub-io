@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Shop</title>
+    <link rel="stylesheet" href="/main.css">
+    </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">DunkElite</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link "  href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link "  href="#">Sale</a>
+        </li>
+            <li class="nav-item">
+              <a class="nav-link "  href="#">Faq</a>
+        </li>
+              
+            </li>
+          
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"><i class="far fa-user"></i></a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="regist.html">registration</a></li>
+                <li><a class="dropdown-item" href="#">authorization</a></li>
+                
+              </ul>
+            </li>
+            <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#modal--cart"><i class="fas fa-shopping-cart"></i>
+            </a>
+            <div class="modal fade" id="modal--cart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <table class="table">
+                      
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td><img src="img/sn/card2.jpg" alt=""></td>
+                          <td>Nike kyrie flytrap 4</td>
+                          <td>150$</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td><img src="img/sn/card1.jfif" alt=""></td>
+                          <td>Under Armour Curry 6 Christmas in the Town White</td>
+                          <td>150$</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-search"></i></a>
+          </li>
+          </ul>  
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="conteiner--fluid">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/sn/trendy-krossovok-2021_16143524381305802667.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/sn/kak-vybrat-basketbolnye-krossovki_29-05-19-14-31-57.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/sn/nike-pg1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+     <section class="main--content">
+       <div class="conteiner">
+         <div class="row">
+           <div class="col-lg-4 .col-sm-6">
+             <div class="product-card">
+               <div class="product-thumb">
+                 <a href="#"><img src="img/sn/card1.jfif"> </a>
+               </div>
+               <div class="product-details">
+                 <h4><a href="">Under Armour Curry 6 </a></h4>
+                 <p>New men's sneakers Under Armour Curry 6 are equipped with a knitted upper for a tight fit</p>
+               </div>
+               <div class="product-button-details d-flex justify-content-between"> 
+               </div>
+               <div class="product--price">
+                 150$
+               </div>
+               <div class="product links">
+                 <a href="#"><i class="fas fa-shopping-cart"></i></a>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-4 .col-sm-6">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/sn/card2.jpg"> </a>
+              </div>
+              <div class="product-details">
+                <h4><a href="">Nike kyrie flytrap 4 </a></h4>
+                <p>Play quick on your edges in the Kyrie Flytrap 4, a shoe that's lightweight, supportive and easy to move in.</p>
+              </div>
+              <div class="product-button-details d-flex justify-content-between"> 
+              </div>
+              <div class="product--price">
+                150$
+              </div>
+              <div class="product links">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 .col-sm-6">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/sn/card/Under Armour.jpg"> </a>
+              </div>
+              <div class="product-details">
+                <h4><a href="">Under Armour Curry 7 </a></h4>
+                <p>Under Armour's Curry 7 is a basketball shoe designed by Stephen Curry.</p>
+              </div>
+              <div class="product-button-details d-flex justify-content-between"> 
+              </div>
+              <div class="product--price">
+                150$
+              </div>
+              <div class="product links">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 .col-sm-6">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/sn/card/Nike LeBron 17.jfif"> </a>
+              </div>
+              <div class="product-details">
+                <h4><a href="">Nike LeBron 17  </a></h4>
+                <p>Men's basketball sneakers. 1st named model of NBA Los Angeles Lakers player James Lebron</p>
+              </div>
+              <div class="product-button-details d-flex justify-content-between"> 
+              </div>
+              <div class="product--price">
+                150$
+              </div>
+              <div class="product links">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 .col-sm-6">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/sn/card/AIR JORDAN 1 RETRO HIGH.jpg"> </a>
+              </div>
+              <div class="product-details">
+                <h4><a href="">AIR JORDAN 1 RETRO HIGH </a></h4>
+                <p>Dressing the legendary silhouette in a classic two-tone color block is the Air Jordan 1 Retro High OG 'Dark Marina Blue</p>
+              </div>
+              <div class="product-button-details d-flex justify-content-between"> 
+              </div>
+              <div class="product--price">
+                150$
+              </div>
+              <div class="product links">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+            
+          <div class="col-lg-4 .col-sm-6">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="img/sn/card1.jfif"> </a>
+              </div>
+              <div class="product-details">
+                <h4><a href="">Under Armour Curry 6 </a></h4>
+                <p>New men's sneakers Under Armour Curry 6 are equipped with a knitted upper for a tight fit</p>
+              </div>
+              <div class="product-button-details d-flex justify-content-between"> 
+              </div>
+              <div class="product--price">
+                150$
+              </div>
+              <div class="product links">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+         </div>
+       </div>
+     </section>
+
+   	<footer> 
+      <section class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h4>Информация</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Main</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Payment and delivery</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </div>
+  
+            <div class="col">
+              <h4>Working hours</h4>
+              <ul class="list-unstyled">
+                <li>Nur-Sultan, Astana It</li>
+                <li>Mon-Fri: 9:00 - 18:00</li>
+                <li>without interruption</li>
+              </ul>
+            </div>
+  
+            <div class="col">
+              <h4>Контакты</h4>
+              <ul class="list-unstyled">
+                <li><a href="tel:5551234567">8-777-777-12-34</a></li>
+                <li><a href="tel:5551234568">8-777-777-56-78</a></li>
+                <li><a href="tel:5551234569">8-777-777-22-22</a></li>
+              </ul>
+            </div>
+  
+            <div class="col">
+              <h4>We’re on social media</h4>
+              <div class="footer-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
